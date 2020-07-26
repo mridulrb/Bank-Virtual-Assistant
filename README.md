@@ -82,17 +82,17 @@ To set up and launch the server application:
 - [Watson Assistant](https://cloud.ibm.com/docs/assistant?topic=assistant-getting-started)
 
 
-# Working Example
+## Working Example
 ![BIA](Pictures/Assistant_Working.gif)
 
-# Screenshots
+## Screenshots
 
-## Chatbot Integrated in Web UI
+### Chatbot Integrated in Web UI
 
 ![BIA](Pictures/Cloud_Foundry.png)
 
 
-## Watson Assistant Dialog Skills
+### Watson Assistant Dialog Skills
 ![BIA](Pictures/Watson_Assistant-1.png)
 ![BIA](Pictures/Watson_Assistant-2.png)
 ![BIA](Pictures/Watson_Assistant-3.png)
