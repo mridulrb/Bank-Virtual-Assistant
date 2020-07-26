@@ -35,10 +35,10 @@ http://covid-19-bank-chatbot.mybluemix.net
   - "Bank Menu" - after a banking service has been viewed 
   - "Main Menu" - to go back to the starting of the chatbot after using a particular service
 
-### Steps
+## Steps
 
 1. [Set up an instance of Watson Assistant](#1-set-up-an-instance-of-watson-assistant).
-2. [Retrieve Intregation ID, Region & Service Instance ID from the Watson Assisnt service and add it to index.html](#2-retrieve-Intregation-ID-Region-&-Service-Instance-ID-from-the-Watson-Assisnt-service).
+2. [Retrieve Intregation ID, Region & Service Instance ID from the Watson Assisnt service](#2-retrieve-Intregation-ID,-Region-&-Service-Instance-ID-from-the-Watson-Assisnt-service).
 3. [Run the server](#3-run-the-server).
 
 ### 1. Set up an instance of Watson Assistant
