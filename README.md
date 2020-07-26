@@ -2,6 +2,12 @@
 
 As we all know, COVID-19 has taken a toll over many enterprises and their customers as well. During this time many customers would want the help of customer support tools to navigate through their options and get the required help for their queries in Arabic and English. In order to address this, COVID-19 Banking Assistant can serve as an asset for banking customers, helping them with their bank related queries with COVID-19 information embedded in the chatbot as well. This can be leveraged as a one-stop-shop chatbot providing users with comprehensive information regarding the current COVID-19 pandemic as well as answering their questions revolving around the financial relief loans provided by banks. 
 
+## Authors
+
+* Mridul Bhandari - IBM
+* Mohammad Fawaz Siddiqi - IBM
+* Sidra Ahmed - IBM
+
 ## Demo
 
 http://covid-19-bank-chatbot.mybluemix.net
@@ -65,10 +71,10 @@ To set up and launch the server application:
 2. Update the `integrationID`, `region`, and `serviceInstanceID` with the values from the Web Chat Integration in Watson Assistant.
 3. Edit the **name** value in the `manifest.yml` file to your application name (for example, _my-app-name_).
 4. Deploy: <br />
-        - To run locally: <br />
+        - **To run locally:** <br />
             1. Start the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) . <br />
             2. The server can be accessed at http://127.0.0.1:5500/index.html. <br />
-        - To deploy to IBM Cloud: <br />
+        - **To deploy to IBM Cloud:** <br />
             1. Log in to your IBM Cloud account using the IBM Cloud CLI: `ibmcloud login`. <br />
             2. Target a Cloud Foundry org and space: `ibmcloud target --cf`. <br />
             3. Push the app to IBM Cloud: `ibmcloud app push`. <br />
@@ -90,7 +96,6 @@ To set up and launch the server application:
 ### Chatbot Integrated in Web UI
 
 ![BIA](Pictures/Cloud_Foundry.png)
-
 
 ### Watson Assistant Dialog Skills
 ![BIA](Pictures/Watson_Assistant-1.png)
