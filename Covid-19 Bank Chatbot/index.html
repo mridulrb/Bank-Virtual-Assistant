@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<style>
+  .WACContainer .WAC__bot-bar{
+    
+    background-color: transparent !important;
+    border-radius: 50%!important;
+    background-image: url(Watson_Logo.gif)!important;
+    flex: initial!important;
+    background-size: cover !important;
+    height: 60px !important;
+    width: 60px !important;
+  }
+  
+  .WACContainer .WAC__received--text{
+    margin-top:15px;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+  .chatElement {
+    /* height: 600px;
+    width: 50%;
+    margin:auto; */
+  }
+  #switch-language {
+    width: 100px;
+    height: 100px;
+    border: 4px solid #0053ba;
+    margin-top: auto;
+    position: absolute;
+    display:inline-block;
+  }
+  #switch-language:hover{
+    opacity: 0.5;
+    background-color: rgb(225, 225, );
+    border: 4px solid #0053ba;
+  }
+</style>
+</head>
+<body>
+  <div class="chatElement"></div>
+  <!-- <button id="switch-language" type="button">ar</button> -->
+  <script>
+    const element = document.querySelector('.chatElement');
+    window.watsonAssistantChatOptions = {
+      integrationID: "d96b13ef-ef53-48b0-89be-798546e75f71",
+      region: "us-south", 
+      serviceInstanceID: "075df592-67b0-48ef-a118-eb9c68a8d518",
+      carbonTheme: 'g90',
+      // Provide the custom element.
+      // element: element,
+      // Hide the close button since we want it always open.
+      hideCloseButton: false,
+      // Hide the default launcher.
+      showLauncher: true,
+      // Make the window open by default.
+      openChatByDefault: false,
+  
+      onLoad: function(instance) {
+        instance.updateCSSVariables({
+              'BASE-font-family': '"IBM Plex Sans", Helvetica Neue, Arial',
+              '$focus': '#3d3d3d',
+              '$hover-primary': '#252525',
+              '$interactive-01': '#0f6dff'
+            });
+        instance.render();
+      }
+    };
+
+    setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+    startChatBot(); 
+  </script>  
+</body>
+</html>
+
+
+<!-- integrationID: '2a869ab9-0f66-4f46-bd7e-194f9e91ad5b', -->

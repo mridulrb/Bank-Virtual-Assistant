@@ -1,0 +1,750 @@
+body,html{margin:0;overflow-x:hidden}.ibm{box-sizing:border-box;margin:auto;max-width:1650px;width:100vw}@media (min-width:1056px){.ibm{padding:0 1.51515vw}}@media (min-width:1650px){.ibm{padding:0 25px}}.ibm,.ibm-col-group{display:flex;flex-wrap:wrap}.ibm-col-group>*,.ibm>*,[class*=ibm-padding]{box-sizing:border-box}.ibm-col-group>*>:first-child,.ibm>*>:first-child,[class*=ibm-padding]>:first-child{margin-top:0}.ibm-col-group>*>:last-child,.ibm>*>:last-child,[class*=ibm-padding]>:last-child{margin-bottom:0}.ibm-col-group>*,.ibm>*{width:100%}.ibm .ibm-col-full,.ibm .ibm-col-group{padding:0;position:relative}.ibm-col-group>*,.ibm-padding,.ibm>*{padding:6.25vw}.ibm-padding-horizontal{padding-left:6.25vw;padding-right:6.25vw}.ibm-padding-vertical{padding-bottom:6.25vw;padding-top:6.25vw}[class*=ibm-col-sm-0]{display:none}.ibm-col-sm-1{width:25vw}.ibm-col-sm-2{width:50vw}.ibm-col-sm-3{width:75vw}.ibm-col-sm-4{width:100vw}@media (min-width:640px){.ibm-col-sm-0-only,[class*=ibm-col-md-][class*=ibm-col-sm-0]{display:initial}.ibm-col-sm-0-only.ibm-col-group,[class*=ibm-col-md-][class*=ibm-col-sm-0].ibm-col-group{display:flex}.ibm-col-group>*,.ibm-padding,.ibm>*{padding:3.125vw}.ibm-padding-horizontal{padding-left:3.125vw;padding-right:3.125vw}.ibm-padding-vertical{padding-bottom:3.125vw;padding-top:3.125vw}[class*=ibm-col-md-0]{display:none}}@media (min-width:1056px){[class*=ibm-col-lg-].ibm-col-sm-0{display:initial}[class*=ibm-col-lg-].ibm-col-sm-0.ibm-col-group{display:flex}.ibm-col-sm-1{max-width:400px;width:24.24242vw}.ibm-col-sm-1[class*=ibm-col-bleed-]{max-width:425px;width:25.75758vw}.ibm-col-sm-2{max-width:800px;width:48.48485vw}.ibm-col-sm-2[class*=ibm-col-bleed-]{max-width:825px;width:50vw}.ibm-col-sm-3{max-width:1200px;width:72.72727vw}.ibm-col-sm-3[class*=ibm-col-bleed-]{max-width:1225px;width:74.24242vw}.ibm-col-sm-4{max-width:1600px;width:96.9697vw}.ibm-col-sm-4[class*=ibm-col-bleed-]{max-width:1625px;width:98.48485vw}.ibm-col-md-0-only,[class*=ibm-col-lg-][class*=ibm-col-md-0]{display:initial}.ibm-col-md-0-only.ibm-col-group,[class*=ibm-col-lg-][class*=ibm-col-md-0].ibm-col-group{display:flex}}@media (min-width:640px){.ibm-col-md-1{width:12.5vw}.ibm-col-md-2{width:25vw}.ibm-col-md-3{width:37.5vw}.ibm-col-md-4{width:50vw}.ibm-col-md-5{width:62.5vw}.ibm-col-md-6{width:75vw}.ibm-col-md-7{width:87.5vw}.ibm-col-md-8{width:100vw}}@media (min-width:1056px){.ibm-col-md-1{max-width:200px;width:12.12121vw}.ibm-col-md-1[class*=ibm-col-bleed-]{max-width:225px;width:13.63636vw}.ibm-col-md-2{max-width:400px;width:24.24242vw}.ibm-col-md-2[class*=ibm-col-bleed-]{max-width:425px;width:25.75758vw}.ibm-col-md-3{max-width:600px;width:36.36364vw}.ibm-col-md-3[class*=ibm-col-bleed-]{max-width:625px;width:37.87879vw}.ibm-col-md-4{max-width:800px;width:48.48485vw}.ibm-col-md-4[class*=ibm-col-bleed-]{max-width:825px;width:50vw}.ibm-col-md-5{max-width:1000px;width:60.60606vw}.ibm-col-md-5[class*=ibm-col-bleed-]{max-width:1025px;width:62.12121vw}.ibm-col-md-6{max-width:1200px;width:72.72727vw}.ibm-col-md-6[class*=ibm-col-bleed-]{max-width:1225px;width:74.24242vw}.ibm-col-md-7{max-width:1400px;width:84.84848vw}.ibm-col-md-7[class*=ibm-col-bleed-]{max-width:1425px;width:86.36364vw}.ibm-col-md-8{max-width:1600px;width:96.9697vw}.ibm-col-md-8[class*=ibm-col-bleed-]{max-width:1625px;width:98.48485vw}.ibm-col-group>*,.ibm-padding,.ibm>*{padding:1.51515vw}.ibm-padding-horizontal{padding-left:1.51515vw;padding-right:1.51515vw}.ibm-padding-vertical{padding-bottom:1.51515vw;padding-top:1.51515vw}[class*=ibm-col-lg-0]{display:none}.ibm-col-lg-1{max-width:100px;width:6.06061vw}.ibm-col-lg-1[class*=ibm-col-bleed-]{max-width:125px;width:7.57576vw}.ibm-col-lg-2{max-width:200px;width:12.12121vw}.ibm-col-lg-2[class*=ibm-col-bleed-]{max-width:225px;width:13.63636vw}.ibm-col-lg-3{max-width:300px;width:18.18182vw}.ibm-col-lg-3[class*=ibm-col-bleed-]{max-width:325px;width:19.69697vw}.ibm-col-lg-4{max-width:400px;width:24.24242vw}.ibm-col-lg-4[class*=ibm-col-bleed-]{max-width:425px;width:25.75758vw}.ibm-col-lg-5{max-width:500px;width:30.30303vw}.ibm-col-lg-5[class*=ibm-col-bleed-]{max-width:525px;width:31.81818vw}.ibm-col-lg-6{max-width:600px;width:36.36364vw}.ibm-col-lg-6[class*=ibm-col-bleed-]{max-width:625px;width:37.87879vw}.ibm-col-lg-7{max-width:700px;width:42.42424vw}.ibm-col-lg-7[class*=ibm-col-bleed-]{max-width:725px;width:43.93939vw}.ibm-col-lg-8{max-width:800px;width:48.48485vw}.ibm-col-lg-8[class*=ibm-col-bleed-]{max-width:825px;width:50vw}.ibm-col-lg-9{max-width:900px;width:54.54545vw}.ibm-col-lg-9[class*=ibm-col-bleed-]{max-width:925px;width:56.06061vw}.ibm-col-lg-10{max-width:1000px;width:60.60606vw}.ibm-col-lg-10[class*=ibm-col-bleed-]{max-width:1025px;width:62.12121vw}.ibm-col-lg-11{max-width:1100px;width:66.66667vw}.ibm-col-lg-11[class*=ibm-col-bleed-]{max-width:1125px;width:68.18182vw}.ibm-col-lg-12{max-width:1200px;width:72.72727vw}.ibm-col-lg-12[class*=ibm-col-bleed-]{max-width:1225px;width:74.24242vw}.ibm-col-lg-13{max-width:1300px;width:78.78788vw}.ibm-col-lg-13[class*=ibm-col-bleed-]{max-width:1325px;width:80.30303vw}.ibm-col-lg-14{max-width:1400px;width:84.84848vw}.ibm-col-lg-14[class*=ibm-col-bleed-]{max-width:1425px;width:86.36364vw}.ibm-col-lg-15{max-width:1500px;width:90.90909vw}.ibm-col-lg-15[class*=ibm-col-bleed-]{max-width:1525px;width:92.42424vw}.ibm-col-lg-16{max-width:1600px;width:96.9697vw}.ibm-col-lg-16[class*=ibm-col-bleed-]{max-width:1625px;width:98.48485vw}}@media (min-width:1650px){.ibm-col-group>*,.ibm-padding,.ibm>*{padding:25px}.ibm-padding-horizontal{padding-left:25px;padding-right:25px}.ibm-padding-vertical{padding-bottom:25px;padding-top:25px}}@media (min-width:1056px){.ibm-col-bleed-left{margin-left:-1.51515vw;padding-left:3.0303vw}.ibm-col-bleed-left.ibm-col-group{padding-left:1.51515vw}.ibm-col-bleed-right{margin-right:-1.51515vw;padding-right:3.0303vw}.ibm-col-bleed-right.ibm-col-group{padding-right:1.51515vw}}@media (min-width:1650px){.ibm-col-bleed-left{margin-left:-25px;padding-left:50px}.ibm-col-bleed-left.ibm-col-group{padding-left:25px}.ibm-col-bleed-right{margin-right:-25px;padding-right:50px}.ibm-col-bleed-right.ibm-col-group{padding-right:25px}}.ibm-col-bleed{max-width:1650px;width:100vw}@media (min-width:1056px){.ibm-col-bleed{margin:0 -1.51515vw;padding-left:3.0303vw;padding-right:3.0303vw}.ibm-col-bleed.ibm-col-group{padding-left:1.51515vw;padding-right:1.51515vw}.ibm-col-bleed>.ibm-col_padding,.ibm-col-bleed>.ibm-col_padding-horizontal{padding-left:3.0303vw;padding-right:3.0303vw}}@media (min-width:1650px){.ibm-col-bleed{margin:0 -25px;padding-left:50px;padding-right:50px}.ibm-col-bleed.ibm-col-group{padding-left:25px;padding-right:25px}.ibm-col-bleed>.ibm-col_padding,.ibm-col-bleed>.ibm-col_padding-horizontal{padding-left:50px;padding-right:50px}}.ibm-col-full[class*=ibm-col-bleed]{padding-left:0;padding-right:0}.ibm-height-sm-1{min-height:6.25vw}.ibm-height-sm-2{min-height:12.5vw}.ibm-height-sm-3{min-height:18.75vw}.ibm-height-sm-4{min-height:25vw}.ibm-height-sm-5{min-height:31.25vw}.ibm-height-sm-6{min-height:37.5vw}.ibm-height-sm-7{min-height:43.75vw}.ibm-height-sm-8{min-height:50vw}.ibm-height-sm-9{min-height:56.25vw}.ibm-height-sm-10{min-height:62.5vw}.ibm-height-sm-11{min-height:68.75vw}.ibm-height-sm-12{min-height:75vw}.ibm-height-sm-13{min-height:81.25vw}.ibm-height-sm-14{min-height:87.5vw}.ibm-height-sm-15{min-height:93.75vw}.ibm-height-sm-16{min-height:100vw}@media (min-width:640px){.ibm-height-sm-1{min-height:6.25vw}.ibm-height-sm-2{min-height:12.5vw}.ibm-height-sm-3{min-height:18.75vw}.ibm-height-sm-4{min-height:25vw}.ibm-height-sm-5{min-height:31.25vw}.ibm-height-sm-6{min-height:37.5vw}.ibm-height-sm-7{min-height:43.75vw}.ibm-height-sm-8{min-height:50vw}.ibm-height-sm-9{min-height:56.25vw}.ibm-height-sm-10{min-height:62.5vw}.ibm-height-sm-11{min-height:68.75vw}.ibm-height-sm-12{min-height:75vw}.ibm-height-sm-13{min-height:81.25vw}.ibm-height-sm-14{min-height:87.5vw}.ibm-height-sm-15{min-height:93.75vw}.ibm-height-sm-16{min-height:100vw}}@media (min-width:1056px){.ibm-height-sm-1{min-height:6.06061vw}.ibm-height-sm-2{min-height:12.12121vw}.ibm-height-sm-3{min-height:18.18182vw}.ibm-height-sm-4{min-height:24.24242vw}.ibm-height-sm-5{min-height:30.30303vw}.ibm-height-sm-6{min-height:36.36364vw}.ibm-height-sm-7{min-height:42.42424vw}.ibm-height-sm-8{min-height:48.48485vw}.ibm-height-sm-9{min-height:54.54545vw}.ibm-height-sm-10{min-height:60.60606vw}.ibm-height-sm-11{min-height:66.66667vw}.ibm-height-sm-12{min-height:72.72727vw}.ibm-height-sm-13{min-height:78.78788vw}.ibm-height-sm-14{min-height:84.84848vw}.ibm-height-sm-15{min-height:90.90909vw}.ibm-height-sm-16{min-height:96.9697vw}}@media (min-width:1650px){.ibm-height-sm-1{min-height:100px}.ibm-height-sm-2{min-height:200px}.ibm-height-sm-3{min-height:300px}.ibm-height-sm-4{min-height:400px}.ibm-height-sm-5{min-height:500px}.ibm-height-sm-6{min-height:600px}.ibm-height-sm-7{min-height:700px}.ibm-height-sm-8{min-height:800px}.ibm-height-sm-9{min-height:900px}.ibm-height-sm-10{min-height:1000px}.ibm-height-sm-11{min-height:1100px}.ibm-height-sm-12{min-height:1200px}.ibm-height-sm-13{min-height:1300px}.ibm-height-sm-14{min-height:1400px}.ibm-height-sm-15{min-height:1500px}.ibm-height-sm-16{min-height:1600px}}@media (min-width:640px){.ibm-height-md-0{min-height:unset}.ibm-height-md-1{min-height:3.125vw}.ibm-height-md-2{min-height:6.25vw}.ibm-height-md-3{min-height:9.375vw}.ibm-height-md-4{min-height:12.5vw}.ibm-height-md-5{min-height:15.625vw}.ibm-height-md-6{min-height:18.75vw}.ibm-height-md-7{min-height:21.875vw}.ibm-height-md-8{min-height:25vw}.ibm-height-md-9{min-height:28.125vw}.ibm-height-md-10{min-height:31.25vw}.ibm-height-md-11{min-height:34.375vw}.ibm-height-md-12{min-height:37.5vw}.ibm-height-md-13{min-height:40.625vw}.ibm-height-md-14{min-height:43.75vw}.ibm-height-md-15{min-height:46.875vw}.ibm-height-md-16{min-height:50vw}}@media (min-width:1056px){.ibm-height-md-1{min-height:3.0303vw}.ibm-height-md-2{min-height:6.06061vw}.ibm-height-md-3{min-height:9.09091vw}.ibm-height-md-4{min-height:12.12121vw}.ibm-height-md-5{min-height:15.15152vw}.ibm-height-md-6{min-height:18.18182vw}.ibm-height-md-7{min-height:21.21212vw}.ibm-height-md-8{min-height:24.24242vw}.ibm-height-md-9{min-height:27.27273vw}.ibm-height-md-10{min-height:30.30303vw}.ibm-height-md-11{min-height:33.33333vw}.ibm-height-md-12{min-height:36.36364vw}.ibm-height-md-13{min-height:39.39394vw}.ibm-height-md-14{min-height:42.42424vw}.ibm-height-md-15{min-height:45.45455vw}.ibm-height-md-16{min-height:48.48485vw}}@media (min-width:1650px){.ibm-height-md-1{min-height:50px}.ibm-height-md-2{min-height:100px}.ibm-height-md-3{min-height:150px}.ibm-height-md-4{min-height:200px}.ibm-height-md-5{min-height:250px}.ibm-height-md-6{min-height:300px}.ibm-height-md-7{min-height:350px}.ibm-height-md-8{min-height:400px}.ibm-height-md-9{min-height:450px}.ibm-height-md-10{min-height:500px}.ibm-height-md-11{min-height:550px}.ibm-height-md-12{min-height:600px}.ibm-height-md-13{min-height:650px}.ibm-height-md-14{min-height:700px}.ibm-height-md-15{min-height:750px}.ibm-height-md-16{min-height:800px}}@media (min-width:1056px){.ibm-height-lg-0{min-height:unset}.ibm-height-lg-1{min-height:1.51515vw}.ibm-height-lg-2{min-height:3.0303vw}.ibm-height-lg-3{min-height:4.54545vw}.ibm-height-lg-4{min-height:6.06061vw}.ibm-height-lg-5{min-height:7.57576vw}.ibm-height-lg-6{min-height:9.09091vw}.ibm-height-lg-7{min-height:10.60606vw}.ibm-height-lg-8{min-height:12.12121vw}.ibm-height-lg-9{min-height:13.63636vw}.ibm-height-lg-10{min-height:15.15152vw}.ibm-height-lg-11{min-height:16.66667vw}.ibm-height-lg-12{min-height:18.18182vw}.ibm-height-lg-13{min-height:19.69697vw}.ibm-height-lg-14{min-height:21.21212vw}.ibm-height-lg-15{min-height:22.72727vw}.ibm-height-lg-16{min-height:24.24242vw}.ibm-height-lg-17{min-height:25.75758vw}.ibm-height-lg-18{min-height:27.27273vw}.ibm-height-lg-19{min-height:28.78788vw}.ibm-height-lg-20{min-height:30.30303vw}.ibm-height-lg-21{min-height:31.81818vw}.ibm-height-lg-22{min-height:33.33333vw}.ibm-height-lg-23{min-height:34.84848vw}.ibm-height-lg-24{min-height:36.36364vw}.ibm-height-lg-25{min-height:37.87879vw}.ibm-height-lg-26{min-height:39.39394vw}.ibm-height-lg-27{min-height:40.90909vw}.ibm-height-lg-28{min-height:42.42424vw}.ibm-height-lg-29{min-height:43.93939vw}.ibm-height-lg-30{min-height:45.45455vw}.ibm-height-lg-31{min-height:46.9697vw}.ibm-height-lg-32{min-height:48.48485vw}.ibm-height-lg-33{min-height:50vw}}@media (min-width:1650px){.ibm-height-lg-1{min-height:25px}.ibm-height-lg-2{min-height:50px}.ibm-height-lg-3{min-height:75px}.ibm-height-lg-4{min-height:100px}.ibm-height-lg-5{min-height:125px}.ibm-height-lg-6{min-height:150px}.ibm-height-lg-7{min-height:175px}.ibm-height-lg-8{min-height:200px}.ibm-height-lg-9{min-height:225px}.ibm-height-lg-10{min-height:250px}.ibm-height-lg-11{min-height:275px}.ibm-height-lg-12{min-height:300px}.ibm-height-lg-13{min-height:325px}.ibm-height-lg-14{min-height:350px}.ibm-height-lg-15{min-height:375px}.ibm-height-lg-16{min-height:400px}.ibm-height-lg-17{min-height:425px}.ibm-height-lg-18{min-height:450px}.ibm-height-lg-19{min-height:475px}.ibm-height-lg-20{min-height:500px}.ibm-height-lg-21{min-height:525px}.ibm-height-lg-22{min-height:550px}.ibm-height-lg-23{min-height:575px}.ibm-height-lg-24{min-height:600px}.ibm-height-lg-25{min-height:625px}.ibm-height-lg-26{min-height:650px}.ibm-height-lg-27{min-height:675px}.ibm-height-lg-28{min-height:700px}.ibm-height-lg-29{min-height:725px}.ibm-height-lg-30{min-height:750px}.ibm-height-lg-31{min-height:775px}.ibm-height-lg-32{min-height:800px}.ibm-height-lg-33{min-height:825px}}.ibm-height-strict{max-height:0}@font-face{font-family:'IBM Plex Mono';font-style:italic;font-weight:400;src:local("IBM Plex Mono Italic"),local("IBMPlexMono-Italic"),url(/fonts/IBMPlexMono-Italic-Pi.woff2) format("woff2"),url(/fonts/IBMPlexMono-Italic-Pi.woff) format("woff");unicode-range:'U+03C0, U+0E3F, U+2070, U+2074-2079, U+2080-2089, U+2113, U+2116, U+2126, U+212E, U+2150-2151, U+2153-215E, U+2190-2199, U+21A9-21AA, U+21B0-21B3, U+21B6-21B7, U+21BA-21BB, U+21C4, U+21C6, U+2202, U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+2713, U+274C, U+2B0E-2B11, U+EBE1, U+EBE3-EBE4, U+EBE6-EBE7, U+ECE0, U+EFCC'}@font-face{font-family:'IBM Plex Mono';font-style:italic;font-weight:400;src:local("IBM Plex Mono Italic"),local("IBMPlexMono-Italic"),url(/fonts/IBMPlexMono-Italic-Latin3.woff2) format("woff2"),url(/fonts/IBMPlexMono-Italic-Latin3.woff) format("woff");unicode-range:'U+0102-0103, U+1EA0-1EF9, U+20AB'}@font-face{font-family:'IBM Plex Mono';font-style:italic;font-weight:400;src:local("IBM Plex Mono Italic"),local("IBMPlexMono-Italic"),url(/fonts/IBMPlexMono-Italic-Latin2.woff2) format("woff2"),url(/fonts/IBMPlexMono-Italic-Latin2.woff) format("woff");unicode-range:'U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF, U+FB01-FB02'}@font-face{font-family:'IBM Plex Mono';font-style:italic;font-weight:400;src:local("IBM Plex Mono Italic"),local("IBMPlexMono-Italic"),url(/fonts/IBMPlexMono-Italic-Latin1.woff2) format("woff2"),url(/fonts/IBMPlexMono-Italic-Latin1.woff) format("woff");unicode-range:'U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FB01-FB02'}@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;src:local("IBM Plex Mono"),local("IBMPlexMono"),url(/fonts/IBMPlexMono-Regular-Pi.woff2) format("woff2"),url(/fonts/IBMPlexMono-Regular-Pi.woff) format("woff");unicode-range:'U+03C0, U+0E3F, U+2070, U+2074-2079, U+2080-2089, U+2113, U+2116, U+2126, U+212E, U+2150-2151, U+2153-215E, U+2190-2199, U+21A9-21AA, U+21B0-21B3, U+21B6-21B7, U+21BA-21BB, U+21C4, U+21C6, U+2202, U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+2713, U+274C, U+2B0E-2B11, U+EBE1, U+EBE3-EBE4, U+EBE6-EBE7, U+ECE0, U+EFCC'}@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;src:local("IBM Plex Mono"),local("IBMPlexMono"),url(/fonts/IBMPlexMono-Regular-Latin3.woff2) format("woff2"),url(/fonts/IBMPlexMono-Regular-Latin3.woff) format("woff");unicode-range:'U+0102-0103, U+1EA0-1EF9, U+20AB'}@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;src:local("IBM Plex Mono"),local("IBMPlexMono"),url(/fonts/IBMPlexMono-Regular-Latin2.woff2) format("woff2"),url(/fonts/IBMPlexMono-Regular-Latin2.woff) format("woff");unicode-range:'U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF, U+FB01-FB02'}@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;src:local("IBM Plex Mono"),local("IBMPlexMono"),url(/fonts/IBMPlexMono-Regular-Latin1.woff2) format("woff2"),url(/fonts/IBMPlexMono-Regular-Latin1.woff) format("woff");unicode-range:'U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FB01-FB02'}@font-face{font-family:'IBM Plex Sans';font-style:italic;font-weight:400;src:local("IBM Plex Sans Italic"),local("IBMPlexSans-Italic"),url(/fonts/IBMPlexSans-Italic-Pi.woff2) format("woff2"),url(/fonts/IBMPlexSans-Italic-Pi.woff) format("woff");unicode-range:'U+03C0, U+0E3F, U+2070, U+2074-2079, U+2080-2089, U+2113, U+2116, U+2126, U+212E, U+2150-2151, U+2153-215E, U+2190-2199, U+21A9-21AA, U+21B0-21B3, U+21B6-21B7, U+21BA-21BB, U+21C4, U+21C6, U+2202, U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+2713, U+274C, U+2B0E-2B11, U+EBE1, U+EBE3-EBE4, U+EBE6-EBE7, U+ECE0, U+EFCC'}@font-face{font-family:'IBM Plex Sans';font-style:italic;font-weight:400;src:local("IBM Plex Sans Italic"),local("IBMPlexSans-Italic"),url(/fonts/IBMPlexSans-Italic-Latin3.woff2) format("woff2"),url(/fonts/IBMPlexSans-Italic-Latin3.woff) format("woff");unicode-range:'U+0102-0103, U+1EA0-1EF9, U+20AB'}@font-face{font-family:'IBM Plex Sans';font-style:italic;font-weight:400;src:local("IBM Plex Sans Italic"),local("IBMPlexSans-Italic"),url(/fonts/IBMPlexSans-Italic-Latin2.woff2) format("woff2"),url(/fonts/IBMPlexSans-Italic-Latin2.woff) format("woff");unicode-range:'U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF, U+FB01-FB02'}@font-face{font-family:'IBM Plex Sans';font-style:italic;font-weight:400;src:local("IBM Plex Sans Italic"),local("IBMPlexSans-Italic"),url(/fonts/IBMPlexSans-Italic-Latin1.woff2) format("woff2"),url(/fonts/IBMPlexSans-Italic-Latin1.woff) format("woff");unicode-range:'U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FB01-FB02'}@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:300;src:local("IBM Plex Sans Light"),local("IBMPlexSans-Light"),url(/fonts/IBMPlexSans-Light-Pi.woff2) format("woff2"),url(/fonts/IBMPlexSans-Light-Pi.woff) format("woff");unicode-range:'U+03C0, U+0E3F, U+2070, U+2074-2079, U+2080-2089, U+2113, U+2116, U+2126, U+212E, U+2150-2151, U+2153-215E, U+2190-2199, U+21A9-21AA, U+21B0-21B3, U+21B6-21B7, U+21BA-21BB, U+21C4, U+21C6, U+2202, U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+2713, U+274C, U+2B0E-2B11, U+EBE1, U+EBE3-EBE4, U+EBE6-EBE7, U+ECE0, U+EFCC'}@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:300;src:local("IBM Plex Sans Light"),local("IBMPlexSans-Light"),url(/fonts/IBMPlexSans-Light-Latin3.woff2) format("woff2"),url(/fonts/IBMPlexSans-Light-Latin3.woff) format("woff");unicode-range:'U+0102-0103, U+1EA0-1EF9, U+20AB'}@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:300;src:local("IBM Plex Sans Light"),local("IBMPlexSans-Light"),url(/fonts/IBMPlexSans-Light-Latin2.woff2) format("woff2"),url(/fonts/IBMPlexSans-Light-Latin2.woff) format("woff");unicode-range:'U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF, U+FB01-FB02'}@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:300;src:local("IBM Plex Sans Light"),local("IBMPlexSans-Light"),url(/fonts/IBMPlexSans-Light-Latin1.woff2) format("woff2"),url(/fonts/IBMPlexSans-Light-Latin1.woff) format("woff");unicode-range:'U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FB01-FB02'}@font-face{font-family:'IBM Plex Sans';font-style:italic;font-weight:300;src:local("IBM Plex Sans Light Italic"),local("IBMPlexSans-LightItalic"),url(/fonts/IBMPlexSans-LightItalic-Pi.woff2) format("woff2"),url(/fonts/IBMPlexSans-LightItalic-Pi.woff) format("woff");unicode-range:'U+03C0, U+0E3F, U+2070, U+2074-2079, U+2080-2089, U+2113, U+2116, U+2126, U+212E, U+2150-2151, U+2153-215E, U+2190-2199, U+21A9-21AA, U+21B0-21B3, U+21B6-21B7, U+21BA-21BB, U+21C4, U+21C6, U+2202, U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+2713, U+274C, U+2B0E-2B11, U+EBE1, U+EBE3-EBE4, U+EBE6-EBE7, U+ECE0, U+EFCC'}@font-face{font-family:'IBM Plex Sans';font-style:italic;font-weight:300;src:local("IBM Plex Sans Light Italic"),local("IBMPlexSans-LightItalic"),url(/fonts/IBMPlexSans-LightItalic-Latin3.woff2) format("woff2"),url(/fonts/IBMPlexSans-LightItalic-Latin3.woff) format("woff");unicode-range:'U+0102-0103, U+1EA0-1EF9, U+20AB'}@font-face{font-family:'IBM Plex Sans';font-style:italic;font-weight:300;src:local("IBM Plex Sans Light Italic"),local("IBMPlexSans-LightItalic"),url(/fonts/IBMPlexSans-LightItalic-Latin2.woff2) format("woff2"),url(/fonts/IBMPlexSans-LightItalic-Latin2.woff) format("woff");unicode-range:'U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF, U+FB01-FB02'}@font-face{font-family:'IBM Plex Sans';font-style:italic;font-weight:300;src:local("IBM Plex Sans Light Italic"),local("IBMPlexSans-LightItalic"),url(/fonts/IBMPlexSans-LightItalic-Latin1.woff2) format("woff2"),url(/fonts/IBMPlexSans-LightItalic-Latin1.woff) format("woff");unicode-range:'U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FB01-FB02'}@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400;src:local("IBM Plex Sans"),local("IBMPlexSans"),url(/fonts/IBMPlexSans-Regular-Pi.woff2) format("woff2"),url(/fonts/IBMPlexSans-Regular-Pi.woff) format("woff");unicode-range:'U+03C0, U+0E3F, U+2070, U+2074-2079, U+2080-2089, U+2113, U+2116, U+2126, U+212E, U+2150-2151, U+2153-215E, U+2190-2199, U+21A9-21AA, U+21B0-21B3, U+21B6-21B7, U+21BA-21BB, U+21C4, U+21C6, U+2202, U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+2713, U+274C, U+2B0E-2B11, U+EBE1, U+EBE3-EBE4, U+EBE6-EBE7, U+ECE0, U+EFCC'}@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400;src:local("IBM Plex Sans"),local("IBMPlexSans"),url(/fonts/IBMPlexSans-Regular-Latin3.woff2) format("woff2"),url(/fonts/IBMPlexSans-Regular-Latin3.woff) format("woff");unicode-range:'U+0102-0103, U+1EA0-1EF9, U+20AB'}@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400;src:local("IBM Plex Sans"),local("IBMPlexSans"),url(/fonts/IBMPlexSans-Regular-Latin2.woff2) format("woff2"),url(/fonts/IBMPlexSans-Regular-Latin2.woff) format("woff");unicode-range:'U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF, U+FB01-FB02'}@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400;src:local("IBM Plex Sans"),local("IBMPlexSans"),url(/fonts/IBMPlexSans-Regular-Latin1.woff2) format("woff2"),url(/fonts/IBMPlexSans-Regular-Latin1.woff) format("woff");unicode-range:'U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FB01-FB02'}@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:600;src:local("IBM Plex Sans SemiBold"),local("IBMPlexSans-SemiBold"),url(/fonts/IBMPlexSans-SemiBold-Pi.woff2) format("woff2"),url(/fonts/IBMPlexSans-SemiBold-Pi.woff) format("woff");unicode-range:'U+03C0, U+0E3F, U+2070, U+2074-2079, U+2080-2089, U+2113, U+2116, U+2126, U+212E, U+2150-2151, U+2153-215E, U+2190-2199, U+21A9-21AA, U+21B0-21B3, U+21B6-21B7, U+21BA-21BB, U+21C4, U+21C6, U+2202, U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+2713, U+274C, U+2B0E-2B11, U+EBE1, U+EBE3-EBE4, U+EBE6-EBE7, U+ECE0, U+EFCC'}@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:600;src:local("IBM Plex Sans SemiBold"),local("IBMPlexSans-SemiBold"),url(/fonts/IBMPlexSans-SemiBold-Latin3.woff2) format("woff2"),url(/fonts/IBMPlexSans-SemiBold-Latin3.woff) format("woff");unicode-range:'U+0102-0103, U+1EA0-1EF9, U+20AB'}@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:600;src:local("IBM Plex Sans SemiBold"),local("IBMPlexSans-SemiBold"),url(/fonts/IBMPlexSans-SemiBold-Latin2.woff2) format("woff2"),url(/fonts/IBMPlexSans-SemiBold-Latin2.woff) format("woff");unicode-range:'U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF, U+FB01-FB02'}@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:600;src:local("IBM Plex Sans SemiBold"),local("IBMPlexSans-SemiBold"),url(/fonts/IBMPlexSans-SemiBold-Latin1.woff2) format("woff2"),url(/fonts/IBMPlexSans-SemiBold-Latin1.woff) format("woff");unicode-range:'U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FB01-FB02'}@font-face{font-family:'IBM Plex Sans';font-style:italic;font-weight:600;src:local("IBM Plex Sans SemiBold Italic"),local("IBMPlexSans-SemiBoldItalic"),url(/fonts/IBMPlexSans-SemiBoldItalic-Pi.woff2) format("woff2"),url(/fonts/IBMPlexSans-SemiBoldItalic-Pi.woff) format("woff");unicode-range:'U+03C0, U+0E3F, U+2070, U+2074-2079, U+2080-2089, U+2113, U+2116, U+2126, U+212E, U+2150-2151, U+2153-215E, U+2190-2199, U+21A9-21AA, U+21B0-21B3, U+21B6-21B7, U+21BA-21BB, U+21C4, U+21C6, U+2202, U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+2713, U+274C, U+2B0E-2B11, U+EBE1, U+EBE3-EBE4, U+EBE6-EBE7, U+ECE0, U+EFCC'}@font-face{font-family:'IBM Plex Sans';font-style:italic;font-weight:600;src:local("IBM Plex Sans SemiBold Italic"),local("IBMPlexSans-SemiBoldItalic"),url(/fonts/IBMPlexSans-SemiBoldItalic-Latin3.woff2) format("woff2"),url(/fonts/IBMPlexSans-SemiBoldItalic-Latin3.woff) format("woff");unicode-range:'U+0102-0103, U+1EA0-1EF9, U+20AB'}@font-face{font-family:'IBM Plex Sans';font-style:italic;font-weight:600;src:local("IBM Plex Sans SemiBold Italic"),local("IBMPlexSans-SemiBoldItalic"),url(/fonts/IBMPlexSans-SemiBoldItalic-Latin2.woff2) format("woff2"),url(/fonts/IBMPlexSans-SemiBoldItalic-Latin2.woff) format("woff");unicode-range:'U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF, U+FB01-FB02'}@font-face{font-family:'IBM Plex Sans';font-style:italic;font-weight:600;src:local("IBM Plex Sans SemiBold Italic"),local("IBMPlexSans-SemiBoldItalic"),url(/fonts/IBMPlexSans-SemiBoldItalic-Latin1.woff2) format("woff2"),url(/fonts/IBMPlexSans-SemiBoldItalic-Latin1.woff) format("woff");unicode-range:'U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FB01-FB02'}@font-face{font-family:'IBM Plex Serif';font-style:italic;font-weight:400;src:local("IBM Plex Serif Italic"),local("IBMPlexSerif-Italic"),url(/fonts/IBMPlexSerif-Italic-Pi.woff2) format("woff2"),url(/fonts/IBMPlexSerif-Italic-Pi.woff) format("woff");unicode-range:'U+03C0, U+0E3F, U+2070, U+2074-2079, U+2080-2089, U+2113, U+2116, U+2126, U+212E, U+2150-2151, U+2153-215E, U+2190-2199, U+21A9-21AA, U+21B0-21B3, U+21B6-21B7, U+21BA-21BB, U+21C4, U+21C6, U+2202, U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+2713, U+274C, U+2B0E-2B11, U+EBE1, U+EBE3-EBE4, U+EBE6-EBE7, U+ECE0, U+EFCC'}@font-face{font-family:'IBM Plex Serif';font-style:italic;font-weight:400;src:local("IBM Plex Serif Italic"),local("IBMPlexSerif-Italic"),url(/fonts/IBMPlexSerif-Italic-Latin3.woff2) format("woff2"),url(/fonts/IBMPlexSerif-Italic-Latin3.woff) format("woff");unicode-range:'U+0102-0103, U+1EA0-1EF9, U+20AB'}@font-face{font-family:'IBM Plex Serif';font-style:italic;font-weight:400;src:local("IBM Plex Serif Italic"),local("IBMPlexSerif-Italic"),url(/fonts/IBMPlexSerif-Italic-Latin2.woff2) format("woff2"),url(/fonts/IBMPlexSerif-Italic-Latin2.woff) format("woff");unicode-range:'U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF, U+FB01-FB02'}@font-face{font-family:'IBM Plex Serif';font-style:italic;font-weight:400;src:local("IBM Plex Serif Italic"),local("IBMPlexSerif-Italic"),url(/fonts/IBMPlexSerif-Italic-Latin1.woff2) format("woff2"),url(/fonts/IBMPlexSerif-Italic-Latin1.woff) format("woff");unicode-range:'U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FB01-FB02'}@font-face{font-family:'IBM Plex Serif';font-style:normal;font-weight:300;src:local("IBM Plex Serif Light"),local("IBMPlexSerif-Light"),url(/fonts/IBMPlexSerif-Light-Pi.woff2) format("woff2"),url(/fonts/IBMPlexSerif-Light-Pi.woff) format("woff");unicode-range:'U+03C0, U+0E3F, U+2070, U+2074-2079, U+2080-2089, U+2113, U+2116, U+2126, U+212E, U+2150-2151, U+2153-215E, U+2190-2199, U+21A9-21AA, U+21B0-21B3, U+21B6-21B7, U+21BA-21BB, U+21C4, U+21C6, U+2202, U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+2713, U+274C, U+2B0E-2B11, U+EBE1, U+EBE3-EBE4, U+EBE6-EBE7, U+ECE0, U+EFCC'}@font-face{font-family:'IBM Plex Serif';font-style:normal;font-weight:300;src:local("IBM Plex Serif Light"),local("IBMPlexSerif-Light"),url(/fonts/IBMPlexSerif-Light-Latin3.woff2) format("woff2"),url(/fonts/IBMPlexSerif-Light-Latin3.woff) format("woff");unicode-range:'U+0102-0103, U+1EA0-1EF9, U+20AB'}@font-face{font-family:'IBM Plex Serif';font-style:normal;font-weight:300;src:local("IBM Plex Serif Light"),local("IBMPlexSerif-Light"),url(/fonts/IBMPlexSerif-Light-Latin2.woff2) format("woff2"),url(/fonts/IBMPlexSerif-Light-Latin2.woff) format("woff");unicode-range:'U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF, U+FB01-FB02'}@font-face{font-family:'IBM Plex Serif';font-style:normal;font-weight:300;src:local("IBM Plex Serif Light"),local("IBMPlexSerif-Light"),url(/fonts/IBMPlexSerif-Light-Latin1.woff2) format("woff2"),url(/fonts/IBMPlexSerif-Light-Latin1.woff) format("woff");unicode-range:'U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FB01-FB02'}@font-face{font-family:'IBM Plex Serif';font-style:italic;font-weight:300;src:local("IBM Plex Serif Light Italic"),local("IBMPlexSerif-LightItalic"),url(/fonts/IBMPlexSerif-LightItalic-Pi.woff2) format("woff2"),url(/fonts/IBMPlexSerif-LightItalic-Pi.woff) format("woff");unicode-range:'U+03C0, U+0E3F, U+2070, U+2074-2079, U+2080-2089, U+2113, U+2116, U+2126, U+212E, U+2150-2151, U+2153-215E, U+2190-2199, U+21A9-21AA, U+21B0-21B3, U+21B6-21B7, U+21BA-21BB, U+21C4, U+21C6, U+2202, U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+2713, U+274C, U+2B0E-2B11, U+EBE1, U+EBE3-EBE4, U+EBE6-EBE7, U+ECE0, U+EFCC'}@font-face{font-family:'IBM Plex Serif';font-style:italic;font-weight:300;src:local("IBM Plex Serif Light Italic"),local("IBMPlexSerif-LightItalic"),url(/fonts/IBMPlexSerif-LightItalic-Latin3.woff2) format("woff2"),url(/fonts/IBMPlexSerif-LightItalic-Latin3.woff) format("woff");unicode-range:'U+0102-0103, U+1EA0-1EF9, U+20AB'}@font-face{font-family:'IBM Plex Serif';font-style:italic;font-weight:300;src:local("IBM Plex Serif Light Italic"),local("IBMPlexSerif-LightItalic"),url(/fonts/IBMPlexSerif-LightItalic-Latin2.woff2) format("woff2"),url(/fonts/IBMPlexSerif-LightItalic-Latin2.woff) format("woff");unicode-range:'U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF, U+FB01-FB02'}@font-face{font-family:'IBM Plex Serif';font-style:italic;font-weight:300;src:local("IBM Plex Serif Light Italic"),local("IBMPlexSerif-LightItalic"),url(/fonts/IBMPlexSerif-LightItalic-Latin1.woff2) format("woff2"),url(/fonts/IBMPlexSerif-LightItalic-Latin1.woff) format("woff");unicode-range:'U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FB01-FB02'}@font-face{font-family:'IBM Plex Serif';font-style:normal;font-weight:400;src:local("IBM Plex Serif"),local("IBMPlexSerif"),url(/fonts/IBMPlexSerif-Regular-Pi.woff2) format("woff2"),url(/fonts/IBMPlexSerif-Regular-Pi.woff) format("woff");unicode-range:'U+03C0, U+0E3F, U+2070, U+2074-2079, U+2080-2089, U+2113, U+2116, U+2126, U+212E, U+2150-2151, U+2153-215E, U+2190-2199, U+21A9-21AA, U+21B0-21B3, U+21B6-21B7, U+21BA-21BB, U+21C4, U+21C6, U+2202, U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+2713, U+274C, U+2B0E-2B11, U+EBE1, U+EBE3-EBE4, U+EBE6-EBE7, U+ECE0, U+EFCC'}@font-face{font-family:'IBM Plex Serif';font-style:normal;font-weight:400;src:local("IBM Plex Serif"),local("IBMPlexSerif"),url(/fonts/IBMPlexSerif-Regular-Latin3.woff2) format("woff2"),url(/fonts/IBMPlexSerif-Regular-Latin3.woff) format("woff");unicode-range:'U+0102-0103, U+1EA0-1EF9, U+20AB'}@font-face{font-family:'IBM Plex Serif';font-style:normal;font-weight:400;src:local("IBM Plex Serif"),local("IBMPlexSerif"),url(/fonts/IBMPlexSerif-Regular-Latin2.woff2) format("woff2"),url(/fonts/IBMPlexSerif-Regular-Latin2.woff) format("woff");unicode-range:'U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF, U+FB01-FB02'}@font-face{font-family:'IBM Plex Serif';font-style:normal;font-weight:400;src:local("IBM Plex Serif"),local("IBMPlexSerif"),url(/fonts/IBMPlexSerif-Regular-Latin1.woff2) format("woff2"),url(/fonts/IBMPlexSerif-Regular-Latin1.woff) format("woff");unicode-range:'U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FB01-FB02'}@font-face{font-family:'IBM Plex Serif';font-style:normal;font-weight:600;src:local("IBM Plex Serif SemiBold"),local("IBMPlexSerif-SemiBold"),url(/fonts/IBMPlexSerif-SemiBold-Pi.woff2) format("woff2"),url(/fonts/IBMPlexSerif-SemiBold-Pi.woff) format("woff");unicode-range:'U+03C0, U+0E3F, U+2070, U+2074-2079, U+2080-2089, U+2113, U+2116, U+2126, U+212E, U+2150-2151, U+2153-215E, U+2190-2199, U+21A9-21AA, U+21B0-21B3, U+21B6-21B7, U+21BA-21BB, U+21C4, U+21C6, U+2202, U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+2713, U+274C, U+2B0E-2B11, U+EBE1, U+EBE3-EBE4, U+EBE6-EBE7, U+ECE0, U+EFCC'}@font-face{font-family:'IBM Plex Serif';font-style:normal;font-weight:600;src:local("IBM Plex Serif SemiBold"),local("IBMPlexSerif-SemiBold"),url(/fonts/IBMPlexSerif-SemiBold-Latin3.woff2) format("woff2"),url(/fonts/IBMPlexSerif-SemiBold-Latin3.woff) format("woff");unicode-range:'U+0102-0103, U+1EA0-1EF9, U+20AB'}@font-face{font-family:'IBM Plex Serif';font-style:normal;font-weight:600;src:local("IBM Plex Serif SemiBold"),local("IBMPlexSerif-SemiBold"),url(/fonts/IBMPlexSerif-SemiBold-Latin2.woff2) format("woff2"),url(/fonts/IBMPlexSerif-SemiBold-Latin2.woff) format("woff");unicode-range:'U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF, U+FB01-FB02'}@font-face{font-family:'IBM Plex Serif';font-style:normal;font-weight:600;src:local("IBM Plex Serif SemiBold"),local("IBMPlexSerif-SemiBold"),url(/fonts/IBMPlexSerif-SemiBold-Latin1.woff2) format("woff2"),url(/fonts/IBMPlexSerif-SemiBold-Latin1.woff) format("woff");unicode-range:'U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FB01-FB02'}@font-face{font-family:'IBM Plex Serif';font-style:italic;font-weight:600;src:local("IBM Plex Serif SemiBold Italic"),local("IBMPlexSerif-SemiBoldItalic"),url(/fonts/IBMPlexSerif-SemiBoldItalic-Pi.woff2) format("woff2"),url(/fonts/IBMPlexSerif-SemiBoldItalic-Pi.woff) format("woff");unicode-range:'U+03C0, U+0E3F, U+2070, U+2074-2079, U+2080-2089, U+2113, U+2116, U+2126, U+212E, U+2150-2151, U+2153-215E, U+2190-2199, U+21A9-21AA, U+21B0-21B3, U+21B6-21B7, U+21BA-21BB, U+21C4, U+21C6, U+2202, U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+2713, U+274C, U+2B0E-2B11, U+EBE1, U+EBE3-EBE4, U+EBE6-EBE7, U+ECE0, U+EFCC'}@font-face{font-family:'IBM Plex Serif';font-style:italic;font-weight:600;src:local("IBM Plex Serif SemiBold Italic"),local("IBMPlexSerif-SemiBoldItalic"),url(/fonts/IBMPlexSerif-SemiBoldItalic-Latin3.woff2) format("woff2"),url(/fonts/IBMPlexSerif-SemiBoldItalic-Latin3.woff) format("woff");unicode-range:'U+0102-0103, U+1EA0-1EF9, U+20AB'}@font-face{font-family:'IBM Plex Serif';font-style:italic;font-weight:600;src:local("IBM Plex Serif SemiBold Italic"),local("IBMPlexSerif-SemiBoldItalic"),url(/fonts/IBMPlexSerif-SemiBoldItalic-Latin2.woff2) format("woff2"),url(/fonts/IBMPlexSerif-SemiBoldItalic-Latin2.woff) format("woff");unicode-range:'U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF, U+FB01-FB02'}@font-face{font-family:'IBM Plex Serif';font-style:italic;font-weight:600;src:local("IBM Plex Serif SemiBold Italic"),local("IBMPlexSerif-SemiBoldItalic"),url(/fonts/IBMPlexSerif-SemiBoldItalic-Latin1.woff2) format("woff2"),url(/fonts/IBMPlexSerif-SemiBoldItalic-Latin1.woff) format("woff");unicode-range:'U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FB01-FB02'}body{font-size:16px}.ibm-type-a{font-size:.75rem;font-weight:400;line-height:1rem;max-width:26.5rem;letter-spacing:.02rem;margin-bottom:1rem}@media (min-width:1056px){.ibm-type-a{font-size:calc(12px + .00673 * (100vw - 1056px));line-height:calc(16px + .0101 * (100vw - 1056px));max-width:calc(424px + .22896 * (100vw - 1056px));letter-spacing:calc(.32px + -.00054 * (100vw - 1056px));margin-bottom:calc(16px + .01347 * (100vw - 1056px))}}@media (min-width:1650px){.ibm-type-a{font-size:1rem;line-height:1.375rem;max-width:35rem;letter-spacing:0;margin-bottom:1.5rem}}.ibm-type-b{font-size:.875rem;font-weight:400;line-height:1.25rem;max-width:30rem;letter-spacing:.01rem;margin-bottom:1.25rem}@media (min-width:1056px){.ibm-type-b{font-size:calc(14px + .00673 * (100vw - 1056px));line-height:calc(20px + .00673 * (100vw - 1056px));max-width:calc(480px + .20202 * (100vw - 1056px));letter-spacing:calc(.16px + -.00027 * (100vw - 1056px));margin-bottom:calc(20px + .00673 * (100vw - 1056px))}}@media (min-width:1650px){.ibm-type-b{font-size:1.125rem;line-height:1.5rem;max-width:37.5rem;letter-spacing:0;margin-bottom:1.5rem}}.ibm-type-c{font-size:1rem;font-weight:400;line-height:1.375rem;max-width:35rem;margin-bottom:1.5rem}@media (min-width:1056px){.ibm-type-c{font-size:calc(16px + .00673 * (100vw - 1056px));line-height:calc(22px + .00673 * (100vw - 1056px));max-width:calc(560px + .21549 * (100vw - 1056px));margin-bottom:calc(24px + .01347 * (100vw - 1056px))}}@media (min-width:1650px){.ibm-type-c{font-size:1.25rem;line-height:1.625rem;max-width:43rem;margin-bottom:2rem}}.ibm-type-d{font-size:1rem;font-weight:600;line-height:1.375rem;max-width:35rem;margin-bottom:1rem}@media (min-width:1056px){.ibm-type-d{font-size:calc(16px + .00673 * (100vw - 1056px));line-height:calc(22px + .00673 * (100vw - 1056px));max-width:calc(560px + .21549 * (100vw - 1056px));margin-bottom:calc(16px + .02694 * (100vw - 1056px))}}@media (min-width:1650px){.ibm-type-d{font-size:1.25rem;line-height:1.625rem;max-width:43rem;margin-bottom:2rem}}.ibm-type-e{font-size:1.125rem;font-weight:400;line-height:1.5rem;max-width:37.5rem;margin-bottom:1.5rem}@media (min-width:320px){.ibm-type-e{font-size:calc(18px + .00625 * (100vw - 320px));line-height:calc(24px + .00625 * (100vw - 320px));max-width:calc(600px + .275 * (100vw - 320px));margin-bottom:calc(24px + .025 * (100vw - 320px))}}@media (min-width:640px){.ibm-type-e{font-size:1.25rem;line-height:1.625rem;max-width:43rem;margin-bottom:2rem}}@media (min-width:640px) and (min-width:1056px){.ibm-type-e{font-size:calc(20px + .00673 * (100vw - 1056px));line-height:calc(26px + .00673 * (100vw - 1056px));max-width:calc(688px + -.24242 * (100vw - 1056px))}}@media (min-width:1650px){.ibm-type-e{font-size:1.5rem;line-height:1.875rem;max-width:34rem}}.ibm-type-f{font-size:1.25rem;font-weight:400;line-height:1.625rem;max-width:43rem;margin-bottom:1.5rem}@media (min-width:320px){.ibm-type-f{font-size:calc(20px + .0125 * (100vw - 320px));line-height:calc(26px + .0125 * (100vw - 320px));max-width:calc(688px + -.45 * (100vw - 320px));margin-bottom:calc(24px + .025 * (100vw - 320px))}}@media (min-width:640px){.ibm-type-f{font-size:1.5rem;line-height:1.875rem;max-width:34rem;margin-bottom:2rem}}@media (min-width:640px) and (min-width:1056px){.ibm-type-f{font-size:calc(24px + .01347 * (100vw - 1056px));line-height:calc(30px + .01684 * (100vw - 1056px));max-width:calc(544px + .2963 * (100vw - 1056px))}}@media (min-width:1650px){.ibm-type-f{font-size:2rem;line-height:2.5rem;max-width:45rem}}.ibm-type-g{font-size:1.5rem;font-weight:400;line-height:1.875rem;max-width:34rem;margin-bottom:2rem}@media (min-width:640px){.ibm-type-g{font-size:calc(24px + .00962 * (100vw - 640px));line-height:calc(30px + .01442 * (100vw - 640px));max-width:calc(544px + .21154 * (100vw - 640px))}}@media (min-width:1056px){.ibm-type-g{font-size:1.75rem;line-height:2.25rem;max-width:39.5rem;font-size:calc(28px + .00673 * (100vw - 1056px));line-height:calc(36px + .00673 * (100vw - 1056px));max-width:calc(632px + .14815 * (100vw - 1056px))}}@media (min-width:1650px){.ibm-type-g{font-size:2rem;line-height:2.5rem;max-width:45rem}}.ibm-type-h{font-size:1.75rem;font-weight:300;line-height:2.25rem;max-width:39.5rem;margin-bottom:2rem}@media (min-width:320px){.ibm-type-h{font-size:calc(28px + .0125 * (100vw - 320px));line-height:calc(36px + .0125 * (100vw - 320px));max-width:calc(632px + .275 * (100vw - 320px))}}@media (min-width:640px){.ibm-type-h{font-size:2rem;line-height:2.5rem;max-width:45rem;font-size:calc(32px + .00962 * (100vw - 640px));line-height:calc(40px + .00962 * (100vw - 640px));max-width:calc(720px + .21154 * (100vw - 640px))}}@media (min-width:1056px){.ibm-type-h{font-size:2.25rem;line-height:2.75rem;max-width:50.5rem;font-size:calc(36px + .0101 * (100vw - 1056px));line-height:calc(44px + .0101 * (100vw - 1056px));max-width:calc(808px + .22896 * (100vw - 1056px))}}@media (min-width:1650px){.ibm-type-h{font-size:2.625rem;line-height:3.125rem;max-width:59rem}}.ibm-type-i{font-size:1.75rem;font-weight:300;line-height:2.25rem;max-width:39.5rem;margin-bottom:2rem}@media (min-width:320px){.ibm-type-i{font-size:calc(28px + .025 * (100vw - 320px));line-height:calc(36px + .025 * (100vw - 320px));max-width:calc(632px + .55 * (100vw - 320px))}}@media (min-width:640px){.ibm-type-i{font-size:2.25rem;line-height:2.75rem;max-width:50.5rem;font-size:calc(36px + .01442 * (100vw - 640px));line-height:calc(44px + .01442 * (100vw - 640px));max-width:calc(808px + .32692 * (100vw - 640px))}}@media (min-width:1056px){.ibm-type-i{font-size:2.625rem;line-height:3.125rem;max-width:59rem;font-size:calc(42px + .0303 * (100vw - 1056px));line-height:calc(50px + .03367 * (100vw - 1056px));max-width:calc(944px + .6734 * (100vw - 1056px))}}@media (min-width:1650px){.ibm-type-i{font-size:3.75rem;line-height:4.375rem;max-width:84rem}}.ibm-type-j{font-size:2.625rem;font-weight:300;line-height:3.125rem;max-width:59rem;margin-bottom:2rem}@media (min-width:320px){.ibm-type-j{font-size:calc(42px + .08125 * (100vw - 320px));line-height:calc(50px + .0875 * (100vw - 320px));max-width:calc(944px + 1.825 * (100vw - 320px))}}@media (min-width:640px){.ibm-type-j{font-size:4.25rem;line-height:4.875rem;max-width:95.5rem;font-size:calc(68px + .21154 * (100vw - 640px));line-height:calc(78px + .20673 * (100vw - 640px));max-width:calc(1528px + 4.61538 * (100vw - 640px))}}@media (min-width:1056px){.ibm-type-j{font-size:9.75rem;line-height:10.25rem;max-width:215.5rem;letter-spacing:-.06rem;font-size:calc(156px + .0202 * (100vw - 1056px));line-height:calc(164px + .01684 * (100vw - 1056px));max-width:calc(3448px + .45791 * (100vw - 1056px))}}@media (min-width:1650px){.ibm-type-j{font-size:10.5rem;line-height:10.875rem;max-width:232.5rem}}.ibm-type-k{font-size:2.625rem;font-weight:600;line-height:3.125rem;max-width:59rem;margin-bottom:2rem}@media (min-width:320px){.ibm-type-k{font-size:calc(42px + .08125 * (100vw - 320px));line-height:calc(50px + .0875 * (100vw - 320px));max-width:calc(944px + 1.825 * (100vw - 320px))}}@media (min-width:640px){.ibm-type-k{font-size:4.25rem;line-height:4.875rem;max-width:95.5rem;font-size:calc(68px + .21154 * (100vw - 640px));line-height:calc(78px + .20673 * (100vw - 640px));max-width:calc(1528px + 4.61538 * (100vw - 640px))}}@media (min-width:1056px){.ibm-type-k{font-size:9.75rem;line-height:10.25rem;max-width:215.5rem;letter-spacing:-.04rem;font-size:calc(156px + .0202 * (100vw - 1056px));line-height:calc(164px + .01684 * (100vw - 1056px));max-width:calc(3448px + .45791 * (100vw - 1056px))}}@media (min-width:1650px){.ibm-type-k{font-size:10.5rem;line-height:10.875rem;max-width:232.5rem}}.ibm,[class*=ibm-type]{font-family:'IBM Plex Sans','Helvetica Neue',Arial,sans-serif}[class*=ibm-type]{margin-top:0}.ibm-type-italic{font-style:italic}.ibm-type-light{font-weight:300}.ibm-type-mono,.ibm-type-mono *,code{font-family:'IBM Plex Mono',Menlo,'DejaVu Sans Mono','Bitstream Vera Sans Mono',Courier,monospace}.ibm-type-regular{font-weight:400}.ibm-type-semibold,strong{font-weight:600}.ibm-type-serif,.ibm-type-serif *{font-family:'IBM Plex Serif',Georgia,Times,serif}/* main imports */
+.slide-in-right-down, .json-pane {
+  transition: all 299.271ms cubic-bezier(0.4, 0.14, 0.3, 1), left 150ms cubic-bezier(0.4, 0.14, 0.3, 1) 0ms, width 150ms cubic-bezier(0.4, 0.14, 0.3, 1) 0ms, bottom 100ms cubic-bezier(0.4, 0.14, 0.3, 1) 150.5ms, height 100ms cubic-bezier(0.4, 0.14, 0.3, 1) 150.5ms; }
+  @media (max-width: 640px) {
+    .slide-in-right-down, .json-pane {
+      transition: all 299.271ms cubic-bezier(0.4, 0.14, 0.3, 1), right 100ms cubic-bezier(0.4, 0.14, 0.3, 1) 0ms, width 100ms cubic-bezier(0.4, 0.14, 0.3, 1) 0ms; } }
+
+.slide-in-right-down--reverse, .json-pane.json-pane--hidden {
+  transition: all 299.271ms cubic-bezier(0.4, 0.14, 0.3, 1), top 100ms cubic-bezier(0.4, 0.14, 0.3, 1) 0ms, height 100ms cubic-bezier(0.4, 0.14, 0.3, 1) 0ms, right 150ms cubic-bezier(0.4, 0.14, 0.3, 1) 100.5ms, width 150ms cubic-bezier(0.4, 0.14, 0.3, 1) 100.5ms; }
+  @media (max-width: 640px) {
+    .slide-in-right-down--reverse, .json-pane.json-pane--hidden {
+      transition: all 299.271ms cubic-bezier(0.4, 0.14, 0.3, 1), left 100ms cubic-bezier(0.4, 0.14, 0.3, 1) 0ms, width 100ms cubic-bezier(0.4, 0.14, 0.3, 1) 0ms; } }
+
+html {
+  font-size: 16px; }
+
+body {
+  background: #171717;
+  color: #f3f3f3; }
+
+.ibm.App {
+  width: auto;
+  flex-wrap: nowrap; }
+
+input {
+  border-style: none;
+  border-color: none;
+  border-width: 0;
+  background: none;
+  font-size: 1em;
+  line-height: 1.375em;
+  color: #8a8a8a; }
+  input:focus {
+    outline: none; }
+
+p {
+  font-size: 1.125em;
+  line-height: 1.5em; }
+
+button {
+  border: none;
+  border-radius: 0;
+  background: #3d3d3d;
+  color: #d8d8d8; }
+  button:focus {
+    outline: none; }
+  button:active:not(.modal--x) {
+    background-image: linear-gradient(to right, rgba(0, 108, 252, 0) 0%, rgba(0, 108, 252, 0) 16.6667%, #006cfc 33.3333%, #006cfc 66.6667%, rgba(0, 108, 252, 0) 83.3333%, rgba(0, 108, 252, 0) 100%);
+    transition: all 109.721ms cubic-bezier(0.2, 0.2, 0.38, 0.9);
+    background-position: 50% top;
+    background-size: 600% 100%; }
+  button:hover {
+    cursor: pointer; }
+    button:hover svg #Icon {
+      fill: white; }
+
+svg {
+  fill: none; }
+  svg #Icon {
+    fill: #d8d8d8; }
+
+.overlay {
+  visibility: hidden;
+  transition: all 0.1s ease-in-out;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0rem;
+  left: 0rem;
+  opacity: 0;
+  margin-top: 0rem;
+  z-index: 10000; }
+  .overlay.show {
+    opacity: 1;
+    visibility: visible; }
+  .overlay .modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #171717;
+    width: 100vw; }
+    .overlay .modal .modal--x {
+      position: absolute;
+      top: 2rem;
+      left: 2rem;
+      background: transparent; }
+      .overlay .modal .modal--x:hover {
+        cursor: pointer; }
+      .overlay .modal .modal--x svg {
+        fill: white;
+        width: 28px;
+        height: 28px; }
+        .overlay .modal .modal--x svg path {
+          display: none; }
+
+.image-card {
+  background: none;
+  display: flex;
+  align-items: normal;
+  margin-bottom: 1.51515vw;
+  width: 75%;
+  background: #f3f3f3;
+  padding: 0; }
+  @media (max-width: 640px) {
+    .image-card {
+      width: 100%; } }
+  .image-card .image-card__image {
+    position: relative;
+    width: 33%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+    .image-card .image-card__image:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      display: block;
+      padding-top: 100%; }
+  .image-card .image-card__content {
+    color: #565656;
+    text-align: left;
+    padding: 1.51515vw;
+    width: 66%; }
+    .image-card .image-card__content .ibm-type-semibold {
+      color: #171717;
+      margin: 0; }
+
+/* vendor imports */
+/* component specific imports */
+#root {
+  height: 100vh;
+  width: 100vw; }
+  #root .App {
+    min-height: 50vh;
+    height: 90vh; }
+    @media (max-width: 1056px) {
+      #root .App {
+        height: 100vh; } }
+    @media (min-width: 1056px) {
+      #root .App {
+        padding-top: 1.51515vw; } }
+
+.chat-container {
+  display: flex;
+  flex-direction: column; }
+  .chat-container #click-me {
+    visibility: hidden; }
+  .chat-container .chat-container__header {
+    background: #3d3d3d;
+    border-radius: 7px 7px 0 0;
+    display: flex;
+    padding: 1.1em 1.51515vw;
+    position: relative;
+    z-index: 4; }
+    .chat-container .chat-container__header p {
+      position: relative;
+      padding-left: 20px;
+      margin: 0; }
+      .chat-container .chat-container__header p:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 12px;
+        height: 12px;
+        background-color: #0f6dff;
+        border-radius: 50%; }
+    .chat-container .chat-container__header:after {
+      content: "";
+      position: absolute;
+      bottom: -35px;
+      left: 0;
+      width: calc(100% - 15px);
+      height: 35px;
+      background: linear-gradient(to bottom, #252525, rgba(37, 37, 37, 0));
+      z-index: 9999; }
+    @media (max-width: 1056px) {
+      .chat-container .chat-container__header {
+        min-height: 55px;
+        align-items: center;
+        padding-left: 3.125vw; } }
+    @media (max-width: 640px) {
+      .chat-container .chat-container__header {
+        padding-left: 6.25vw; } }
+  .chat-container .chat-container__list-wrapper {
+    background: #252525;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow: auto; }
+  .chat-container .chat-container__input {
+    background: #252525; }
+  .chat-container .input-with-button {
+    background: #252525;
+    padding-bottom: 10px; }
+    .chat-container .input-with-button button {
+      position: absolute;
+      left: -9999px; }
+    .chat-container .input-with-button input {
+      width: 100%;
+      border-bottom: 1px solid #8a8a8a;
+      padding-bottom: 10px;
+      color: white;
+      border-radius: 0; }
+  @media (max-width: 500px) {
+    .chat-container {
+      max-height: 100vh;
+      height: 100vh;
+      padding: 0; }
+      .chat-container .chat-container__header {
+        border-radius: 0; }
+      .chat-container .input-with-button {
+        padding: 6.25vw 0 0; } }
+
+.chat-list .chat-list__loader p span, .chat-list .chat-list__loader p:before, .chat-list .chat-list__loader p:after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background-color: #0f6dff;
+  left: 3px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  animation-duration: 1s;
+  animation-iteration-count: infinite; }
+
+.balance-card, .appt-card {
+  width: 60%; }
+  @media (max-width: 640px) {
+    .balance-card, .appt-card {
+      width: 100%; } }
+
+.chat-list {
+  position: relative;
+  z-index: 3;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  overflow-x: hidden; }
+  .chat-list .chat-list__loader {
+    display: none; }
+    .chat-list .chat-list__loader p {
+      position: relative;
+      padding-left: 14px;
+      margin: 0;
+      text-decoration: none; }
+      .chat-list .chat-list__loader p:before {
+        animation-name: dot-up; }
+      .chat-list .chat-list__loader p:after {
+        animation-name: dot-down; }
+      .chat-list .chat-list__loader p:hover {
+        cursor: default; }
+  .chat-list.chat-list--loading .chat-list__loader {
+    display: block; }
+  .chat-list > div {
+    opacity: 1;
+    animation-duration: 200ms;
+    animation-name: chat-fade-in; }
+
+@keyframes dot-down {
+  from {
+    top: 50%; }
+  30% {
+    top: 90%; }
+  to {
+    top: 50%; } }
+
+@keyframes dot-up {
+  from {
+    top: 50%; }
+  30% {
+    top: 10%; }
+  to {
+    top: 50%; } }
+
+@keyframes chat-fade-in {
+  0% {
+    opacity: 0; }
+  66% {
+    opacity: 0;
+    transform: translateY(0.25em); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
+.chat-option__button {
+  margin: 0 0.5em 0.5em 0;
+  padding: 10px 20px;
+  border-radius: 500px;
+  transition: left 0.2s ease-in-out;
+  position: relative;
+  left: 0; }
+  .chat-option__button:hover {
+    cursor: pointer; }
+  .chat-option__button.chat-option__button--selected {
+    background: #0f6dff;
+    transform: translateX(-100%);
+    margin-right: 0;
+    left: 100%;
+    cursor: default; }
+
+.chat-option-list {
+  width: 100%;
+  position: relative;
+  min-height: 3em; }
+
+.chat-message--anchor-right {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  max-width: 30vw;
+  margin-left: auto; }
+
+.chat-message--bot {
+  max-width: 75%;
+  color: #f3f3f3; }
+  .chat-message--bot p {
+    position: relative;
+    padding-left: 14px; }
+    .chat-message--bot p:before {
+      content: "";
+      position: absolute;
+      height: calc(21px + .00673 * (100vw - 1650px));
+      width: 3px;
+      background-color: #0f6dff;
+      top: 1px;
+      left: 4px;
+      border-radius: 2px; }
+      @media (max-width: 1056px) {
+        .chat-message--bot p:before {
+          height: calc(21px + .00673 * (100vw - 1056px)); } }
+      @media (max-width: 500px) {
+        .chat-message--bot p:before {
+          height: calc(21px + .00673 * (100vw - 500px)); } }
+
+.chat-message--user {
+  border-radius: 1.5em;
+  padding: 10px 20px;
+  background: #757575;
+  position: relative; }
+  .chat-message--user:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: 0px;
+    bottom: -7px;
+    border-top: 20px solid;
+    border-right: 21px solid;
+    border-bottom: 8px solid;
+    border-left: 18px solid;
+    border-color: transparent #757575 transparent transparent; }
+
+.chatBar {
+  padding: 0.3rem 0; }
+
+.token {
+  font-size: 0.9em; }
+
+.property {
+  color: #8ce7e6; }
+
+.string {
+  color: #cfb0ff; }
+
+.number {
+  color: #cfb0ff; }
+
+.boolean {
+  color: #cfb0ff; }
+
+.json-pane {
+  position: absolute;
+  background: #171717;
+  width: 200%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: 9998;
+  overflow-y: auto; }
+  .json-pane .results--json {
+    padding-left: 1.5151515vw; }
+  .json-pane .json-link-inline--button, .json-pane .base--a {
+    display: none; }
+  .json-pane.json-pane--hidden {
+    width: 0;
+    height: 65px;
+    overflow: hidden;
+    padding: 0; }
+  @media (max-width: 1056px) {
+    .json-pane {
+      margin: 0;
+      width: calc(100% - 6.25vw);
+      height: calc(90vh - 6.25vw); } }
+  @media (max-width: 640px) {
+    .json-pane {
+      width: 100%;
+      top: 0;
+      left: 0; }
+      .json-pane.json-pane--hidden {
+        height: calc(90vh - 6.25vw); } }
+  @media (max-width: 500px) {
+    .json-pane {
+      height: 100vh; }
+      .json-pane.json-pane--hidden {
+        height: 100vh; } }
+  .json-pane pre.line-numbers {
+    position: relative;
+    padding-left: 3.8em;
+    counter-reset: linenumber; }
+    .json-pane pre.line-numbers > code {
+      position: relative;
+      white-space: inherit;
+      overflow-y: visible;
+      font-family: inherit; }
+    .json-pane pre.line-numbers .line-numbers-rows {
+      position: absolute;
+      pointer-events: none;
+      top: 0;
+      font-size: 100%;
+      left: -3.8em;
+      width: 3em;
+      margin-top: 0;
+      /* works for line-numbers below 1000 lines */
+      letter-spacing: -1px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none; }
+      .json-pane pre.line-numbers .line-numbers-rows > span {
+        pointer-events: none;
+        display: block;
+        counter-increment: linenumber;
+        margin-top: 0; }
+        .json-pane pre.line-numbers .line-numbers-rows > span:before {
+          content: counter(linenumber);
+          color: #fff;
+          display: block;
+          padding-right: 0.8em;
+          text-align: right; }
+
+.path-selection-overlay__card-group a, .path-selection-overlay__card-group button {
+  width: 50%;
+  padding: 1.51515vw;
+  background: #252525;
+  color: white;
+  text-align: left;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  margin-bottom: 2px !important;
+  box-sizing: border-box; }
+  .path-selection-overlay__card-group a:hover, .path-selection-overlay__card-group button:hover {
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(to bottom, #006EFF 30%, rgba(86, 82, 186, 0.8) 100%); }
+    .path-selection-overlay__card-group a:hover svg g, .path-selection-overlay__card-group button:hover svg g {
+      fill: white; }
+  .path-selection-overlay__card-group a svg g, .path-selection-overlay__card-group button svg g {
+    fill: #0f6dff; }
+  .path-selection-overlay__card-group a:nth-of-type(odd), .path-selection-overlay__card-group button:nth-of-type(odd) {
+    border-right: 2px solid #171717; }
+
+.path-selection__container .overlay {
+  max-width: 1650px;
+  left: 50%;
+  transform: translateX(-50%); }
+  .path-selection__container .overlay .modal {
+    width: 100%; }
+    .path-selection__container .overlay .modal .modal--x {
+      width: 53px;
+      height: 53px;
+      top: 3.125vw;
+      left: 3.125vw; }
+      @media (min-width: 1056px) {
+        .path-selection__container .overlay .modal .modal--x {
+          top: 1.51515vw;
+          left: 1.51515vw; } }
+    .path-selection__container .overlay .modal .path-selection-overlay__container {
+      padding: 0 1.51515vw;
+      position: relative; }
+      @media (max-width: 1056px) {
+        .path-selection__container .overlay .modal .path-selection-overlay__container {
+          padding: 0 1.51515vw; } }
+      @media (max-width: 640px) {
+        .path-selection__container .overlay .modal .path-selection-overlay__container {
+          padding: 0; } }
+      .path-selection__container .overlay .modal .path-selection-overlay__container .path-selection-overlay {
+        max-height: 100vh;
+        height: 100vh;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column; }
+        .path-selection__container .overlay .modal .path-selection-overlay__container .path-selection-overlay .path-selection-overlay__card-group {
+          display: flex;
+          flex-wrap: wrap;
+          width: 70vw;
+          max-width: 650px;
+          margin: 0 auto;
+          padding-top: 1em; }
+          .path-selection__container .overlay .modal .path-selection-overlay__container .path-selection-overlay .path-selection-overlay__card-group .path-selection-card__card-intro {
+            padding: 0 0 1em; }
+
+@media (min-width: 640px) {
+  .path-selection__container {
+    display: flex !important;
+    flex-direction: column;
+    position: relative; }
+    .path-selection__container .demo-button {
+      align-self: flex-start;
+      background: none; }
+      .path-selection__container .demo-button.has-active:active {
+        background: transparent; }
+    .path-selection__container .path-selection__path-header {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center; }
+      .path-selection__container .path-selection__path-header p {
+        margin: 0; }
+      .path-selection__container .path-selection__path-header .demo-button {
+        padding: 0 1.3em 0 0; }
+    .path-selection__container .path-selection__description {
+      position: fixed;
+      bottom: 3.125vw;
+      width: calc(25vw - 6.25vw);
+      max-width: 350px; } }
+    @media screen and (min-width: 640px) and (max-width: 767px) and (orientation: landscape) {
+      .path-selection__container .path-selection__description {
+        position: static;
+        padding-top: 6.25vw; } }
+
+@media (min-width: 640px) {
+      .path-selection__container .path-selection__description p.duo-gray-50 {
+        color: #8a8a8a; }
+    .path-selection__container .path-selection__nav-buttons button {
+      margin: 1px;
+      background: #0f6dff; }
+    .path-selection__container .path-selection__terms-of-use {
+      padding-top: 8px; }
+      .path-selection__container .path-selection__terms-of-use a {
+        color: #0f6dff; } }
+
+.demo-button {
+  margin-bottom: 0.1em;
+  padding: 1.6em; }
+  .demo-button img {
+    width: 24px;
+    height: 24px; }
+  .demo-button:hover {
+    cursor: pointer; }
+  @media (max-width: 500px) {
+    .demo-button {
+      margin: 0;
+      padding: 1.4em; } }
+
+.demo-toggle-button {
+  z-index: 9999; }
+
+.demo-toggle-button--toggled {
+  background: #0f6dff; }
+
+.options-sidebar {
+  position: relative; }
+  .options-sidebar .options-sidebar-container {
+    position: relative;
+    height: 100%; }
+  @media (max-width: 1056px) {
+    .options-sidebar {
+      margin: 3.125vw;
+      padding: 0;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 75vw; } }
+  @media (max-width: 640px) {
+    .options-sidebar {
+      width: calc(100% - 12.5vw);
+      margin: 6.25vw;
+      height: 55px; } }
+  @media (max-width: 500px) {
+    .options-sidebar {
+      width: 100%;
+      margin: 0; } }
+
+.options-panel {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-end; }
+  @media (max-width: 1056px) {
+    .options-panel {
+      flex-direction: row-reverse;
+      height: 55px; }
+      .options-panel button {
+        padding: 0;
+        width: 54px;
+        height: 54px;
+        margin: 0; }
+        .options-panel button:not(.demo-toggle-button) {
+          z-index: 9997; }
+        .options-panel button svg {
+          padding-top: 2px; }
+        .options-panel button:first-of-type {
+          border-radius: 0 7px 0 0; }
+          .options-panel button:first-of-type.demo-toggle-button__toggled {
+            border-radius: 0; } }
+  @media (max-width: 640px) {
+    .options-panel {
+      align-items: center; }
+      .options-panel button {
+        height: 55px; }
+        .options-panel button svg {
+          width: 20px;
+          height: 20px; } }
+
+.demo-notification {
+  transition: all 100.271ms cubic-bezier(0.4, 0.14, 0.3, 1);
+  position: relative;
+  display: none; }
+  .demo-notification.active {
+    display: block; }
+  .demo-notification .overlay {
+    position: relative;
+    z-index: 9997;
+    left: 0; }
+    .demo-notification .overlay .modal {
+      width: auto;
+      right: 0;
+      background: #0f6dff; }
+      .demo-notification .overlay .modal .demo-notification__content > div, .demo-notification .overlay .modal .demo-notification__content > a {
+        padding: 1.51515vw; }
+      .demo-notification .overlay .modal .demo-notification__content > a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        margin: 0;
+        border-top: 1px solid #171717; }
+        .demo-notification .overlay .modal .demo-notification__content > a p {
+          margin: 0; }
+      .demo-notification .overlay .modal .demo-notification__content a .demo-notification__cta {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .demo-notification .overlay .modal .demo-notification__content a .demo-notification__cta span {
+          display: block;
+          height: 28px;
+          width: 24px;
+          text-align: center; }
+      .demo-notification .overlay .modal .demo-notification__content > .demo-notification__notification > p {
+        margin-right: 15%; }
+      .demo-notification .overlay .modal .modal--x {
+        top: 1.3vw;
+        right: 0.7vw;
+        left: auto;
+        background: transparent;
+        padding: 0; }
+      @media (max-width: 1056px) {
+        .demo-notification .overlay .modal {
+          width: 50%;
+          left: auto; } }
+      @media (max-width: 640px) {
+        .demo-notification .overlay .modal {
+          width: 100%; } }
+
+.balance-card {
+  background: #f3f3f3;
+  color: black; }
+
+.balance-card__header {
+  padding: 5%; }
+  .balance-card__header p {
+    margin: 0; }
+
+.balance-card__content {
+  background: #d8d8d8;
+  padding: 5%; }
+
+.balance-card__item {
+  color: #565656;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between; }
+  .balance-card__item p {
+    margin: 0; }
+
+.appt-card {
+  background: #f3f3f3;
+  color: black;
+  margin-bottom: 1em; }
+
+.appt-card__header {
+  padding: 5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between; }
+  .appt-card__header p {
+    margin: 0;
+    font-weight: 600; }
+
+.appt-card__content {
+  background: #d8d8d8;
+  color: #565656;
+  padding: 5%; }
+  .appt-card__content p {
+    margin: 0; }
+
+.credit-card-option__image {
+  padding: 2%; }
+  .credit-card-option__image path {
+    fill: black; }
+
+.chat-option-item {
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 18px; }
+
+.search-item {
+  background-color: #3d3d3d;
+  border-radius: 10px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin: 3px;
+  width: 70%;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  display: inline-block; }
+
+div#search-div a:link {
+  color: #0f6dff; }
+
+div#search-div a:visited {
+  color: #054ada; }
+
+div#search-div a:hover {
+  color: #3d8aff; }
+
+div#search-div a:active {
+  color: #0f6dff; }
+
+/*# sourceMappingURL=main.5670436ed2b3c0d33e126f934bd20a96.css.map*/
