@@ -40,7 +40,6 @@ http://covid-19-bank-chatbot.mybluemix.net
 1. [Set up an instance of Watson Assistant](#1-set-up-an-instance-of-watson-assistant).
 2. [Retrieve Intregation ID, Region & Service Instance ID from the Watson Assisnt service and add it to index.html](#2-retrieve-Intregation-ID-Region-&-Service-Instance-ID-from-the-Watson-Assisnt-service).
 3. [Run the server](#3-run-the-server).
-4. [Run the mobile application](#4-run-the-mobile-application).
 
 ### 1. Set up an instance of Watson Assistant
 
