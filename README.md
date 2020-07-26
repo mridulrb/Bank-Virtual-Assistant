@@ -56,7 +56,7 @@ Log in to IBM Cloud and provision a Watson Assistant instance.
 
 ### 2. Retrieve Intregation ID, Region & Service Instance ID from the Watson Assistant service
 
-To access Watson Assistant, Integration ID, Region & Service Instance are required. Go to the Assistant and add Web Chat Integration. Click on Web Chat under saved Integrations and scroll to Add the chat UI to your web page. Copy the Integration ID, Region & Service Instance ID.
+To connect Watson Assistant to Web Application UI Integration ID, Region & Service Instance are required. Go to the Assistant and add Web Chat Integration. Click on Web Chat under saved Integrations and scroll to Add the chat UI to your web page. Copy the Integration ID, Region & Service Instance ID.
 
 ### 3. Run the server
 
@@ -65,17 +65,14 @@ To set up and launch the server application:
 1. Go to the `Covid-19 Bank Chatbot/index.html` directory of the cloned repo.
 2. Update the `integrationID`, `region`, and `serviceInstanceID` with the values from the Web Chat Integration in Watson Assistant.
 3. Edit the **name** value in the `manifest.yml` file to your application name (for example, _my-app-name_).
-4. From a terminal:
-    1. Go to the `starter-kit/server-app` directory of the cloned repo.
-    2. Install the dependencies: `npm install`.
-    3. Launch the server application locally or deploy to IBM Cloud:
-        - To run locally:
-            1. Start the application: `npm start`.
-            2. The server can be accessed at http://localhost:3000.
-        - To deploy to IBM Cloud:
-            1. Log in to your IBM Cloud account using the IBM Cloud CLI: `ibmcloud login`.
-            2. Target a Cloud Foundry org and space: `ibmcloud target --cf`.
-            3. Push the app to IBM Cloud: `ibmcloud app push`.
+4. Deploy: <br />
+        - To run locally: <br />
+            1. Start the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) . <br />
+            2. The server can be accessed at http://127.0.0.1:5500/index.html. <br />
+        - To deploy to IBM Cloud: <br />
+            1. Log in to your IBM Cloud account using the IBM Cloud CLI: `ibmcloud login`. <br />
+            2. Target a Cloud Foundry org and space: `ibmcloud target --cf`. <br />
+            3. Push the app to IBM Cloud: `ibmcloud app push`. <br />
             4. The server can be accessed at the URL shown in the console (`routes`) after the app successful uploads and starts (for example,  http://covid-19-bank-chatbot.mybluemix.net).
 
 
@@ -91,9 +88,12 @@ To set up and launch the server application:
 
 # Screenshots
 
-## Chatbot in Action
+## Chatbot Integrated in Web UI
 
 ![BIA](Pictures/Cloud_Foundry.png)
+
+
+## Watson Assistant Dialog Skills
 ![BIA](Pictures/Watson_Assistant-1.png)
 ![BIA](Pictures/Watson_Assistant-2.png)
 ![BIA](Pictures/Watson_Assistant-3.png)
