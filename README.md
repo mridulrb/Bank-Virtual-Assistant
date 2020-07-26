@@ -9,7 +9,7 @@ http://covid-19-bank-chatbot.mybluemix.net
 ## Technologies Used
 
 -   Watson Assistant - for leveraging the chatbot itself.
--   IBM Cloud Functions - for connecting Watson Discovery to Watson Assistant
+-   IBM Cloud Functions - for connecting Web Application UI to Watson Assistant
 
 
 ## Architecture Diagram
