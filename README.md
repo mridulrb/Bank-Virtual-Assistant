@@ -12,6 +12,10 @@ As we all know, COVID-19 has taken a toll over many enterprises and their custom
 
 http://covid-19-bank-chatbot.mybluemix.net
 
+## Blog
+
+https://medium.com/ibm-watson/building-a-covid-19-virtual-banking-assistant-cb4252dc1bcc
+
 ## Technologies Used
 
 -   Watson Assistant - for leveraging the chatbot itself.
