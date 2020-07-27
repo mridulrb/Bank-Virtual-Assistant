@@ -27,30 +27,97 @@
     width: 50%;
     margin:auto; */
   }
-  #switch-language {
-    width: 100px;
-    height: 100px;
-    border: 4px solid #0053ba;
-    margin-top: auto;
-    position: absolute;
-    display:inline-block;
+
+  header {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(images/hero.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(images/hero.jpg);
+	background-size: 100%;
+	background-position: center;
+	height: 100vh;
+	background-attachment: fixed;
   }
-  #switch-language:hover{
-    opacity: 0.5;
-    background-color: rgb(225, 225, );
-    border: 4px solid #0053ba;
+
+  html {
+	height: 100%;
+	background-color: #fff;
+	color: #555;
+	font-family: 'Lato', 'Arial', 'sans-serif';
+	font-size: 2opx;
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
   }
+
+  body {
+    height: 100%;
+  }
+
+  .main-nav {
+	float: right;
+	list-style: none;
+	margin-top: 50px;
+  }
+
+  .logo {
+	height: 100px;
+	width: auto;
+	float: left;
+	margin-top: 20px;
+}
+
+.logo-black {
+	display: none;
+	height: 50px;
+	width: auto;
+	float: left;
+	margin: 5px 0;
+}
+
+.hero-text-box {
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+h1 {
+	margin-top: 0;
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 240%;
+	word-spacing: 4px;
+	letter-spacing: 1px;
+}
+
 </style>
 </head>
-<body>
+<body> 
+  <header>
+    <nav>
+      <div class="row">
+        <img src="images/logo-outline.png" alt="Innovate logo" class="logo">
+        <img src="images/logo.png" alt="Innovatee logo" class="logo-black">
+        <a class="mobile-nav-icon"><i class="js-mobile-nav-icon ion-navicon-round"></i></a>
+      </div>
+      <div class="hero-text-box">
+        <h1>This is banking like never before.</h1>
+      </div>  
+    </nav>
+  </header>
+  <!-- <img src = "./images/hero.jpg" width=100% height=100%> -->
+  <div class="header"></div>
   <div class="chatElement"></div>
   <script>
     const element = document.querySelector('.chatElement');
     window.watsonAssistantChatOptions = {
-      integrationID: "YOUR_INTEGRATION_ID",
-      region: "YOUR_REGION",
-      serviceInstanceID: "YOUR_SERVICE_INSTANCE_ID",
+      // integrationID: "YOUR_INTEGRATION_ID",
+      // region: "YOUR_REGION",
+      // serviceInstanceID: "YOUR_SERVICE_INSTANCE_ID",
       carbonTheme: 'g90',
+      integrationID: "d96b13ef-ef53-48b0-89be-798546e75f71",
+      region: "us-south", 
+      serviceInstanceID: "075df592-67b0-48ef-a118-eb9c68a8d518",
       // Provide the custom element.
       // element: element,
       // Hide the close button since we want it always open.
@@ -64,7 +131,7 @@
         instance.updateCSSVariables({
               'BASE-font-family': '"IBM Plex Sans", Helvetica Neue, Arial',
               '$focus': '#3d3d3d',
-              '$hover-primary': '#252525',
+              '$hover-primary': '#d24142',
               '$interactive-01': '#0f6dff'
             });
         instance.render();
@@ -80,6 +147,3 @@
   </script>  
 </body>
 </html>
-
-
-<!-- integrationID: '2a869ab9-0f66-4f46-bd7e-194f9e91ad5b', -->
